@@ -1,0 +1,29 @@
+.panel {
+    font-family: Courier, "Courier New", serif;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 47px);
+    grid-gap: 3px;
+    grid-template-rows: 55px repeat(5, 47px);
+    padding: 16px;
+    border-radius: 2px;
+    justify-content: center;
+    width: 186px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #9197af;
+    border-bottom: solid #424455 4px;
+    grid-template-areas:
+            "result result result result"
+            "plus minus multiplication division"
+            "seven eight nine AC"
+            "four five six remove_last_el"
+            "one two three equal"
+            "zero dot left_bracket right_bracket";
+}
+
+

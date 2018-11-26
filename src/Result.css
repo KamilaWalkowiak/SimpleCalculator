@@ -1,0 +1,19 @@
+.result {
+    padding-left: 10px;
+    padding-right: 10px; /*doesn't work*/
+    width: 177px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    background-color: rgb(230, 255, 222);
+    display: grid;
+    grid-area: result;
+    border-top: solid rgb(64, 82, 62) 3px;
+    border-radius: 4px;
+    font-size: 24px;
+    align-items: center;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    position: relative;
+}
